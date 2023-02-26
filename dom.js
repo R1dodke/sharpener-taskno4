@@ -1,6 +1,5 @@
-var items= document.getElementsByClassName('list-group-item');
-console.log(items);
-for (var i=0; i<items.length; i++){
-  items[i].style.fontWeight='bold';
-}
-items[2].style.backgroundColor='green';
+var secondItem= document.querySelector('.list-group-item:nth-child(2)');
+secondItem.style.backgroundColor='green';
+
+var thirdItem= document.querySelector('.list-group-item:nth-child(3)');
+thirdItem.style.color='white';
