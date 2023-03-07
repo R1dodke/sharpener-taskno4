@@ -27,5 +27,11 @@ function test2(){
     localStorage.removeItem("user");
 }
 
+function test3(){
+
+    localStorage.getItem("user");
+    
+    test2();
+
 
 
