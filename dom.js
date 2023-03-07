@@ -23,4 +23,9 @@ function test(){
     
 
 }
+function test2(){
+    localStorage.removeItem("user");
+}
+
+
 
